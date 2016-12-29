@@ -13,6 +13,7 @@
 		671280911E147D9700444C67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6712808F1E147D9700444C67 /* Main.storyboard */; };
 		671280931E147D9700444C67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 671280921E147D9700444C67 /* Assets.xcassets */; };
 		671280961E147D9700444C67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 671280941E147D9700444C67 /* LaunchScreen.storyboard */; };
+		6712809F1E14862D00444C67 /* ListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6712809E1E14862D00444C67 /* ListTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		671280921E147D9700444C67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		671280951E147D9700444C67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		671280971E147D9700444C67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6712809D1E14862D00444C67 /* ListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListTableViewCell.h; sourceTree = "<group>"; };
+		6712809E1E14862D00444C67 /* ListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				671280941E147D9700444C67 /* LaunchScreen.storyboard */,
 				671280971E147D9700444C67 /* Info.plist */,
 				671280861E147D9700444C67 /* Supporting Files */,
+				6712809D1E14862D00444C67 /* ListTableViewCell.h */,
+				6712809E1E14862D00444C67 /* ListTableViewCell.m */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6712808E1E147D9700444C67 /* ViewController.m in Sources */,
+				6712809F1E14862D00444C67 /* ListTableViewCell.m in Sources */,
 				6712808B1E147D9700444C67 /* AppDelegate.m in Sources */,
 				671280881E147D9700444C67 /* main.m in Sources */,
 			);
